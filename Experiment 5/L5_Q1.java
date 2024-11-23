@@ -19,15 +19,14 @@ class QueueUnderflowException extends Exception {
     }
 }
 
-class QueueDemo implements QueueImpl {
+class L5_Q1 implements QueueImpl {
     private int[] queue;
     private int front;
     private int rear;
     private int size;
     private static final int MAX_SIZE = 10;
 
-    // Constructor
-    public QueueDemo() {
+    public L5_Q1() {
         queue = new int[MAX_SIZE];
         front = 0;
         rear = -1;
@@ -71,7 +70,7 @@ class QueueDemo implements QueueImpl {
     }
 
     public static void main(String[] args) {
-        QueueDemo queue = new QueueDemo();
+        L5_Q1 queue = new L5_Q1();
 
         try {
             for (int i = 1; i <= 10; i++) {
@@ -85,7 +84,6 @@ class QueueDemo implements QueueImpl {
         }
 
         try {
-            // Delete elements from the queue
             queue.delete();
             queue.delete();
             queue.display();

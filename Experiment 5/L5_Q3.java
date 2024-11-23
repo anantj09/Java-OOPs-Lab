@@ -1,7 +1,4 @@
-// Create Product having following attributes: Product ID, Name, Category ID and
-// UnitPrice. Create ElectricalProduct having the following additional attributes:
-// VoltageRange and Wattage. Add a behavior to change the Wattage and price of the
-// electrical product. Display the updated ElectricalProduct details.
+
 
 class Product {
 
@@ -55,7 +52,7 @@ class ElectricalProduct extends Product{
     }
 }
 
-public class ProductDemo {
+public class L5_Q3 {
     public static void main(String[] args) {
         
     

@@ -1,4 +1,4 @@
-public class InterestCalculator {
+public class L7_Q1 {
     public static double calculateBalance(double principal, double annualRate, int months) {
         double years = months / 12.0;
         double totalInterest = principal * annualRate * years;

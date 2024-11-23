@@ -43,7 +43,7 @@ class Audi extends Car {
     }
 }
 
-public class Car1 {
+public class L6_Q4 {
     public static void main(String[] args) {
         Car car1 = new Maruti("Maruti Swift");
         car1.displayModel();

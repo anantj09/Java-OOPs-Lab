@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class alphabet {
+public class L8_Q2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the word : ");

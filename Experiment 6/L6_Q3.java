@@ -18,7 +18,7 @@ class WashingMachine {
     }
 }
 
-public class Washing{
+public class L6_Q3{
 
     public static void main(String[] args) {
         WashingMachine wm = new WashingMachine();

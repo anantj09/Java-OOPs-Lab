@@ -47,7 +47,7 @@ class Scooter extends Vehicle {
     }
 }
 
-public class Transport {
+public class L7_Q2 {
     public static void main(String[] args) {
         Vehicle car = new Car("Toyota", "Corolla");
         car.displayInfo();

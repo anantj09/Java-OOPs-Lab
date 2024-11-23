@@ -4,7 +4,7 @@ class NotHexadecimalException extends Exception {
     }
 }
 
-public class HexadecimalCheck {
+public class L5_Q2 {
     public static void main(String[] args) {
         String hexNumber = "1A3FAB";
         

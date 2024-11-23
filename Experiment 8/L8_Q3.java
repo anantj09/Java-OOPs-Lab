@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class names {
+public class L8_Q3 {
     public static void main(String[] args) {
         String[] names = {"Sayantan", "Shivam", "Ishaan", "Rishav", "Anant", "Ajitesh", "Aman", "Suraj", "Ravi", "Vikas"};
 

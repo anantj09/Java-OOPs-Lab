@@ -1,6 +1,6 @@
 
 
-public class MovieTheater {
+public class L6_Q2 {
     public static double calculateTotalProfit(int attendees) {
         double income = attendees * 5;
         double cost = 20 + (attendees * 0.50);

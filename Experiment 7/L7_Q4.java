@@ -28,7 +28,7 @@ class Student extends Teacher {
     }
 }
 
-public class StudentTeacher {
+public class L7_Q4 {
 
     public static void main(String[] args) {
         Student student = new Student("Alice", "Mathematics", 123, "A");
